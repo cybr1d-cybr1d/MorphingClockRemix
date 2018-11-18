@@ -821,6 +821,7 @@ void draw_weather ()
     String lstr = String (tempM) + String("C");
     Serial.print ("temperature: ");
     Serial.println (lstr);
+    TFDrawText (&display, "   ", xo, yo, lcc);
     TFDrawText (&display, lstr, xo, yo, lcc);
     //-humidity
     lcc = cc_red;
