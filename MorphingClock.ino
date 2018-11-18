@@ -801,9 +801,9 @@ void draw_weather ()
       if (tempM < 22)
         lcc = cc_blu;
       if (tempM < 10)
-        lcc = cc_lblu;
-      if (tempM < 6)
         lcc = cc_ppl;
+      if (tempM < 6)
+        lcc = cc_lblu;
       if (tempM < 1)
         lcc = cc_wht;
     }
