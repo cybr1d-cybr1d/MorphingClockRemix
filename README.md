@@ -3,6 +3,8 @@ Modified from HariFun's great Morphing Digital Clock idea https://www.instructab
 
 I used HariFun's experimental 12E code for the clock and WiFi https://github.com/hwiguna/HariFun_166_Morphing_Clock/tree/Experimental12E
 
+The exact board I used can be found here https://hackerboxes.com/collections/past-hackerboxes/products/hackerbox-0030-lightforms
+
 I used both of these projects to make a working version for a WeMos NodeMCU  V3 with ESP8266 12E. When I tried to use the original version of MorphingClockRemix, the WiFi would not work if the refresh rate was too high and if I lowered the refresh rate then the WiFi would work but the display couldn't draw fast enough and it was very obviously flashing.
 
 Major differences:
