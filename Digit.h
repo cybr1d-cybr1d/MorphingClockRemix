@@ -13,7 +13,6 @@ class Digit {
     void Morph(byte newValue);
     byte Value();
     void DrawColon(uint16_t c);
-    void SetColor(uint16_t c);
     
   private:
     PxMATRIX* _display;
