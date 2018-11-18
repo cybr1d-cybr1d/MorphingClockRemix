@@ -1,5 +1,5 @@
 # MorphingClockRemix
-Modified from HariFun's great Morphing Digital Clock idea https://www.instructables.com/id/Morphing-Digital-Clock/ and imirel's MorphingClockRemix https://github.com/lmirel/MorphingClockRemix.
+Modified from HariFun's great Morphing Digital Clock idea https://www.instructables.com/id/Morphing-Digital-Clock/ and lmirel's MorphingClockRemix https://github.com/lmirel/MorphingClockRemix.
 
 I used HariFun's experimental 12E code for the clock and WiFi https://github.com/hwiguna/HariFun_166_Morphing_Clock/tree/Experimental12E
 
