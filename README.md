@@ -5,7 +5,7 @@ I used HariFun's experimental 12E code for the clock and WiFi https://github.com
 
 The exact board I used can be found here https://hackerboxes.com/collections/past-hackerboxes/products/hackerbox-0030-lightforms
 
-I used both of these projects to make a working version for a WeMos NodeMCU  V3 with ESP8266 12E. When I tried to use the original version of MorphingClockRemix, the WiFi would not work if the refresh rate was too high and if I lowered the refresh rate then the WiFi would work but the display couldn't draw fast enough and it was very obviously flashing.
+I used both of these projects to make a working version for a WeMos NodeMCU  V3 with ESP8266 12E. When I tried to use the original version of MorphingClockRemix, the WiFi would not work if the refresh rate was too low and if I raised the refresh rate then the WiFi would work but the display couldn't draw fast enough and it was very obviously flashing.
 
 Major differences:
 - This code does NOT use the NTPClient Lib https://github.com/2dom/NtpClient
