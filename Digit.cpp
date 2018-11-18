@@ -63,11 +63,6 @@ void Digit::drawFillRect(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_
   _display->fillRect(xOffset + x, height - (y + yOffset), w,h, c);
 }
 
-void Digit::SetColor(uint16_t c)
-{
-  _color = c;
-}
-
 void Digit::DrawColon(uint16_t c)
 {
   // Colon is drawn to the left of this digit
